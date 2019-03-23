@@ -7,7 +7,7 @@ provider "oci" {
 }
 
 # Get a list of Availability Domains
-data "oci_identity_availability_domains" "adc" {
+data "oci_identity_availability_domains" "ads" {
   compartment_id = "${var.tenancy_ocid}"
 }
 
